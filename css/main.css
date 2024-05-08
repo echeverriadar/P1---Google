@@ -35,10 +35,34 @@ a{
 }
 
 nav .nav-right-section .menu-icon{
-    background-image: url("");
+    background-image: url("https://static.thenounproject.com/png/756729-200.png");
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: center; 
     background-size: contain;
     width: 25px;
     height: 25px;
+}
+nav .nav-right-section img{
+    border-radius: 50%;
+    margin-left: 10%;
+}
+
+main{
+    margin-top: 150px;
+    text-align: center;
+}
+
+main .main-logo{
+    width: 530px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+}
+
+main .main-input-container{
+    width: 525px;
+    border-radius: 100px;
+    border: 1px solid #dfe1e5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
